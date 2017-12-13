@@ -48,3 +48,62 @@ body {
 	color: #8A0808;
 	margin-left: 2.8em;
 }
+/*Otro HTML*/
+/*hr arreglo principal*/
+hr {
+	border: 0.2em ridge #6666cc;
+}
+/*Fondo Principal*/
+.main-part {
+	background-image: url(../images/FondoPrincipal.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	min-height: 100vh;
+}
+/*Segundo título*/
+.subtitle {
+	background-color: rgba(0, 0, 111, 0.5);
+	color: #FFFFFF;
+	font-size: 4em;
+	text-align: center;
+	padding: 0.2em;
+	border-radius: 1em;
+}
+/*Mapa*/
+.Map {
+	border-radius: 0.5em;
+	margin-left: 3em;
+}
+/*Cuadro de busqueda*/
+.search-phrase {
+	background-color: rgba(0, 0, 111, 0.5);
+	color: #FFFFFF;
+	font-size: 2em;
+	text-align: center;
+	padding: 0.2em;
+	border-radius: 1em;
+}
+.Search {
+	width: 20em;
+	background-color: #6666cc;
+	color: white;
+	padding: 0.2em;
+	border: none;
+	border-radius: 0.5em;
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+}
+.Search::placeholder {
+  color: white;
+}
+/*Imagenes de comida*/
+.image1, .image2, .image3, .image4, .image5, .image6 {
+	max-width: 100%;
+	border-radius: 0.5em;
+	margin-left: 3.5em;
+	margin-bottom: 1em;
+}
+	
+
