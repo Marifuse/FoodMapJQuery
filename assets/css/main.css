@@ -25,6 +25,7 @@ body {
   margin-bottom: 0;
 }
 .fa-cog{
+	color: black;
 	margin-left: 12.5em;
 }
 /*Portada principal visto en celular*/
