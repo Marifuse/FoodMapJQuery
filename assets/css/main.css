@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Indie Flower', cursive;  
+	font-family: 'Indie Flower', cursive;
 }
 /*Portada principal versión pc*/
 .portal {
@@ -118,7 +118,7 @@ hr {
 	margin-bottom: 1em;
 	cursor: pointer;
 }
-/*Imagenes de comida ersión pc*/
+/*Imagenes de comida versión pc*/
 .image1PC, .image2PC, .image3PC, .image4PC, .image5PC, .image6PC{
 	max-width: 100%;
 	border-radius: 0.5em;
@@ -127,5 +127,3 @@ hr {
 	margin-bottom: 2em;
 	cursor: pointer;
 }
-	
-
