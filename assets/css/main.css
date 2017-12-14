@@ -98,11 +98,17 @@ hr {
 .Search::placeholder {
   color: white;
 }
+.fa-search {
+	background-color: #6666cc;
+	color: white;
+	padding: 0.5em;
+	border-radius: 0.5em;
+}
 /*Imagenes de comida*/
 .image1, .image2, .image3, .image4, .image5, .image6 {
 	max-width: 100%;
 	border-radius: 0.5em;
-	margin-left: 3.5em;
+	margin-left: 4.2em;
 	margin-bottom: 1em;
 }
 	
