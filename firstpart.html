@@ -11,35 +11,53 @@
     <link rel="stylesheet" href="font/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
-  <body>
+  <body class="Celphone">
     <!--Contenido de busqueda e imagenes-->
-    <section class="main-part visible-xs">
+    <section class="main-part">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-md-12">
             <h2 class="subtitle">FoodMap</h2>
             <hr>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13312.365565196971!2d-70.6514212!3d-33.472971300000005!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1513129084156" width="250" height="250" frameborder="0" style="border:0" allowfullscreen class="Map"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13312.365565196971!2d-70.6514212!3d-33.472971300000005!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1513129084156" width="250" height="250" frameborder="0" style="border:0" allowfullscreen class="Map visible-xs"></iframe><!--Sólo se ve en Celular-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13312.365565196971!2d-70.6514212!3d-33.472971300000005!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1513258286822" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="MapLarge hidden-xs"></iframe><!--Sólo se ve en versión PC-->
             <hr>
             <h4 class="search-phrase">Comida cerca de ti</h4>
             <input class="Search" type="text" name="Filtrar Restuarantes" placeholder="Filtra el lugar donde deseas comer">
             <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-            <div class="row">
-              <div class="col-xs-4">
-                <a href="#"><img class="image1" src="assets/images/chilena.jpg"></a>
-                <a href="#"><img class="image2" src="assets/images/china.jpg"></a>
-                <a href="#"><img class="image3" src="assets/images/indian.jpg"></a>
-              </div>
-              <div class="col-xs-4">
-                <a href="#"><img class="image4" src="assets/images/italian.jpg"></a>
-                <a href="#"><img class="image5" src="assets/images/japanese.jpg"></a>
-                <a href="#"><img class="image6" src="assets/images/mexican.jpeg"></a>
-              </div>  
-            </div>
           </div>
         </div>
       </div>
     </section>
+    <section id="Images-Food">
+      <div class="container-fluid">
+        <div class="row">
+              <div class="col-xs-4 visible-xs">
+                <a href="#"><img class="image1" id="Chilean-food" src="assets/images/chilena.jpg"></a>
+                <a href="#"><img class="image2" id="Chinese-food" src="assets/images/china.jpg"></a>
+                <a href="#"><img class="image3" id="Indian-food" src="assets/images/indian.jpg"></a>
+              </div>
+              <div class="col-xs-4 visible-xs">
+                <a href="#"><img class="image4" id="Italian-food" src="assets/images/italian.jpg"></a>
+                <a href="#"><img class="image5" id="Japanese-food" src="assets/images/japanese.jpg"></a>
+                <a href="#"><img class="image6" id="Mexican-food" src="assets/images/mexican.jpeg"></a>
+              </div> 
+        </div>
+    </section>  
+    <section class="Food-Pc hidden-xs">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#"><img class="image1PC" id="Chilean-foodPC" src="assets/images/imagesPC/chilena.jpg"></a>
+          <a href="#"><img class="image2PC" id="Chinese-foodPC" src="assets/images/imagesPC/china.jpg"></a>
+          <a href="#"><img class="image3PC" id="Indian-foodPC" src="assets/images/imagesPC/indian.jpg"></a>
+        </div>  
+        <div class="col-md-4">
+          <a href="#"><img class="image4PC" id="italian-foodPc" src="assets/images/imagesPC/italian.jpg"></a>
+          <a href="#"><img class="image5PC" id="Japanese-foodPC" src="assets/images/imagesPC/japanese.jpg"></a>
+          <a href="#"><img class="image6PC" id="Mexican-foodPC" src="assets/images/imagesPC/mexican.jpeg"></a>
+        </div>   
+      </div>
+    </section>  
 
     <!--Enlaces JS-->
     <script type="text/javascript" src="assets/js/jquery.js"></script>
