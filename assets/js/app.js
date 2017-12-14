@@ -1,42 +1,44 @@
 $(document).ready(function(){
-	//Evento de Mouse para versión movil
-	$("#Chilean-food").mouseover(function(){
+	//Evento de Mouse (click) para versión movil
+	$("#Chilean-food").click(function(){
     		alert("¿Quieres restaurants de comida chilena?");
   	});
-  	$("#Chinese-food").mouseover(function(){
+  	$("#Chinese-food").click(function(){
     		alert("¿Quieres restaurants de comida china?");
   	});
-  	$("#Indian-food").mouseover(function(){
+  	$("#Indian-food").click(function(){
     		alert("¿Quieres restaurants de comida hindú?");
   	});
-  	$("#Italian-food").mouseover(function(){
+  	$("#Italian-food").click(function(){
     		alert("¿Quieres restaurants de comida italiana?");
   	});
-  	$("#Japanese-food").mouseover(function(){
+  	$("#Japanese-food").click(function(){
     		alert("¿Quieres restaurants de comida japonesa?");
   	});
-  	$("#Mexican-food").mouseover(function(){
+  	$("#Mexican-food").click(function(){
     		alert("¿Quieres restaurants de comida mexicana?");
   	});
-  	//Evento de Mouse para Versión PC
-  	$("#Chilean-foodPC").mouseover(function(){
+  	//Evento de Mouse (click) para Versión PC
+  	$("#Chilean-foodPC").click(function(){
     		alert("¿Quieres restaurants de comida chilena?");
   	});
-  	$("#Chinese-foodPC").mouseover(function(){
+  	$("#Chinese-foodPC").click(function(){
     		alert("¿Quieres restaurants de comida china?");
   	});
-  	$("#Indian-foodPC").mouseover(function(){
+  	$("#Indian-foodPC").click(function(){
     		alert("¿Quieres restaurants de comida hindú?");
   	});
-  	$("#Italian-foodPC").mouseover(function(){
+  	$("#Italian-foodPC").click(function(){
     		alert("¿Quieres restaurants de comida italiana?");
   	});
-  	$("#Japanese-foodPC").mouseover(function(){
+  	$("#Japanese-foodPC").click(function(){
     		alert("¿Quieres restaurants de comida japonesa?");
   	});
-  	$("#Mexican-foodPC").mouseover(function(){
+  	$("#Mexican-foodPC").click(function(){
     		alert("¿Quieres restaurants de comida mexicana?");
   	});
+
+
 
 });
 
